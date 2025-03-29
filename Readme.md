@@ -2,6 +2,8 @@
 
 [Project Go Through](https://drive.google.com/file/d/1Y9zTPpQtgThr-apgbA_gBzAJOJCzfFZ0/view?usp=sharing)
 
+- [How to Setup](https://github.com/sameersheikh2/CrowdFund?tab=readme-ov-file#how-to-set-it-up)
+
 # CrowdFund🚀
 
 Welcome to **CrowdFund**! This is a web-based crowdfunding platform where people can create campaigns, browse exciting projects, and support ideas they love. It’s built with modern tools to make funding dreams smooth and fun. As of March 29, 2025, it’s still a **work-in-progress (WIP)**—think of it as a sneak peek! We’ve got some solid features up and running, with more cool stuff on the way.

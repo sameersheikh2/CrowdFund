@@ -3,6 +3,7 @@
 [Project Go Through](https://drive.google.com/file/d/1Y9zTPpQtgThr-apgbA_gBzAJOJCzfFZ0/view?usp=sharing)
 
 - [How to Setup](https://github.com/sameersheikh2/CrowdFund?tab=readme-ov-file#how-to-set-it-up)
+- [Reason why I've not deployed it yet](https://github.com/sameersheikh2/CrowdFund?tab=readme-ov-file#why-not-deployed?)
 
 # CrowdFund🚀
 
@@ -95,3 +96,7 @@ We’ve got big plans to make CrowdFund even better:
 ## Want to Help?😇
 
 This is a learning project, so I’d love your thoughts! Feel free to fork the repo, tinker with it, and send pull requests or ideas my way.
+
+## Why not deployed?
+
+As this project includes my Firebase configuration and I don't know how to protect it while uploading (I only know how to do this using Node.js), I am still exploring the options and will update you soon regarding this.

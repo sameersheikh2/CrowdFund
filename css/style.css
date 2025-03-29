@@ -1,0 +1,22 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #111827;
+}
+
+footer a:hover {
+  color: #d1d5db;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+progress::-webkit-progress-bar {
+  border-radius: 7px;
+  background-color: #374151;
+}
+
+progress::-webkit-progress-value {
+  background-color: #2563eb;
+  border-radius: 7px;
+}

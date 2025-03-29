@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Crowdfunding Platform</title>
+  </head>
+  <body class="bg-gray-900 text-gray-100">
+    <header>
+      <nav
+        class="bg-gray-800 shadow-md shadow-gray-700 p-4 flex justify-between items-center"
+      >
+        <a href="index.html" class="text-2xl font-bold">CrowdFund</a>
+        <div class="hidden md:flex items-center space-x-4">
+          <a
+            href="./login.html"
+            target="_parent"
+            class="px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded-md text-gray-100 hover:text-gray-100 transition-all ease duration-300"
+            >Login</a
+          >
+        </div>
+        <div class="md:hidden flex items-center">
+          <label class="relative">
+            <div
+              class="w-9 h-10 cursor-pointer flex flex-col items-center justify-center"
+            >
+              <input id="menu-btn" class="hidden peer" type="checkbox" />
+              <div
+                class="w-[50%] h-[2px] bg-gray-100 rounded-sm transition-all duration-300 origin-left translate-y-[0.45rem] peer-checked:rotate-[-45deg]"
+              ></div>
+              <div
+                class="w-[50%] h-[2px] bg-gray-100 rounded-md transition-all duration-300 origin-center peer-checked:hidden"
+              ></div>
+              <div
+                class="w-[50%] h-[2px] bg-gray-100 rounded-md transition-all duration-300 origin-left -translate-y-[0.45rem] peer-checked:rotate-[45deg]"
+              ></div>
+              <div
+                id="mobile-menu"
+                class="hidden peer-checked:flex flex-col w-screen absolute right-[-19px] top-14 bg-gray-800 shadow-lg shadow-gray-700 z-20 overflow-y-hidden"
+              >
+                <div id="mobile-login" class="flex flex-col">
+                  <a
+                    href="./login.html"
+                    class="block px-8 py-2 text-sm text-gray-400 hover:bg-gray-700"
+                    >Login</a
+                  >
+                  <a
+                    href="campaigns.html"
+                    class="block px-8 py-2 text-sm text-gray-400 hover:bg-gray-700"
+                    >Explore Campaigns</a
+                  >
+                </div>
+              </div>
+            </div>
+          </label>
+        </div>
+      </nav>
+    </header>
+    <form id="signup-form">
+      <div
+        class="flex flex-col h-screen items-center justify-center px-6 py-8 mx-auto lg:py-0"
+      >
+        <div
+          class="w-full bg-gray-800 rounded-lg shadow shadow-gray-700 md:mt-0 sm:max-w-md xl:p-0"
+        >
+          <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
+            <p
+              class="text-xl font-bold leading-tight tracking-tight text-gray-100 md:text-2xl"
+            >
+              Create an account
+            </p>
+            <div>
+              <input
+                placeholder="Johndoe@email.com"
+                class="bg-gray-700 border border-gray-700 text-gray-100 sm:text-sm rounded-lg block w-full p-2.5 focus:bg-gray-600 focus:border-gray-600"
+                id="email"
+                type="email"
+                required
+              />
+            </div>
+            <div>
+              <input
+                class="bg-gray-700 border border-gray-700 text-gray-100 sm:text-sm rounded-lg block w-full p-2.5 focus:bg-gray-600 focus:border-gray-600"
+                placeholder="Password"
+                id="password"
+                required
+                type="password"
+              />
+            </div>
+            <div>
+              <input
+                class="bg-gray-700 border border-gray-700 text-gray-100 sm:text-sm rounded-lg block w-full p-2.5 focus:bg-gray-600 focus:border-gray-600"
+                placeholder="Confirm Password"
+                id="confirmPassword"
+                type="password"
+                required
+              />
+            </div>
+            <p id="error-message" class="text-sm text-center text-red-500"></p>
+            <button
+              class="bg-blue-600 text-white font-bold py-2 px-4 rounded-md mt-4 hover:bg-blue-700 transition ease-in-out duration-150 w-full"
+              type="submit"
+            >
+              Create an account
+            </button>
+          </div>
+        </div>
+      </div>
+    </form>
+    <script type="module" src="./js/signup.js"></script>
+  </body>
+</html>

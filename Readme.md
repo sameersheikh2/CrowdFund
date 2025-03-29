@@ -1,6 +1,4 @@
-# Video Walkthrough of project
-
-[text](https://drive.google.com/file/d/1Y9zTPpQtgThr-apgbA_gBzAJOJCzfFZ0/view?usp=sharing)
+[Project Go Through](https://drive.google.com/file/d/1Y9zTPpQtgThr-apgbA_gBzAJOJCzfFZ0/view?usp=sharing)
 
 # CrowdFund
 
@@ -43,16 +41,12 @@ Want to try it out? Here’s how to get CrowdFund running on your machine:
 1.  **Grab the Code**:
     Open your terminal and run:
     `bash
-    git clone <https://github.com/your-username/crowdfund.git>
-    cd crowdfund
-    `
-2.  **Set Up Firebase**:
-    - Head to the [Firebase Console](https://console.firebase.google.com/) and create a new project.
-    - Turn on Authentication (pick Email/Password), Firestore, and Storage.
-    - Find your Firebase config (in Project Settings > General > Your Apps—it’s a chunk of code with apiKey, authDomain, etc.).
-    - Open js/firebase.js in the project folder and swap the placeholder config with yours, like this:
-      javascript
-      `const firebaseConfig = {
+git clone <https://github.com/your-username/crowdfund.git>
+cd crowdfund
+`
+2.  **Set Up Firebase**: - Head to the [Firebase Console](https://console.firebase.google.com/) and create a new project. - Turn on Authentication (pick Email/Password), Firestore, and Storage. - Find your Firebase config (in Project Settings > General > Your Apps—it’s a chunk of code with apiKey, authDomain, etc.). - Open js/firebase.js in the project folder and swap the placeholder config with yours, like this:
+    javascript
+    `const firebaseConfig = {
   apiKey: "your-api-key",
   authDomain: "your-auth-domain",
   projectId: "your-project-id",

@@ -3,7 +3,7 @@
 [Project Go Through](https://drive.google.com/file/d/1Y9zTPpQtgThr-apgbA_gBzAJOJCzfFZ0/view?usp=sharing)
 
 - [How to Setup](https://github.com/sameersheikh2/CrowdFund?tab=readme-ov-file#how-to-set-it-up)
-- [Reason why I've not deployed it yet](https://github.com/sameersheikh2/CrowdFund?tab=readme-ov-file#why-not-deployed?)
+- [Reason why I've not deployed it yet](https://github.com/sameersheikh2/CrowdFund?tab=readme-ov-file#why-not-deployed)
 
 # CrowdFund🚀
 

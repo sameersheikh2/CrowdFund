@@ -1,10 +1,12 @@
+###### Video 👇
+
 [Project Go Through](https://drive.google.com/file/d/1Y9zTPpQtgThr-apgbA_gBzAJOJCzfFZ0/view?usp=sharing)
 
-# CrowdFund
+# CrowdFund🚀
 
 Welcome to **CrowdFund**! This is a web-based crowdfunding platform where people can create campaigns, browse exciting projects, and support ideas they love. It’s built with modern tools to make funding dreams smooth and fun. As of March 29, 2025, it’s still a **work-in-progress (WIP)**—think of it as a sneak peek! We’ve got some solid features up and running, with more cool stuff on the way.
 
-## What’s Working Right Now
+## What’s Working Right Now ✅
 
 Here’s what you can play with today:
 
@@ -15,19 +17,18 @@ Here’s what you can play with today:
 - **Real-Time Magic**: Campaigns save and update instantly with Firebase Firestore.
 - **Live Preview**: See how your campaign card looks as you create it.
 
-## Where We’re At
+## Where We’re At ⚒️
 
 CrowdFund isn’t finished yet. The basics—like signing in and managing campaigns—are ready to go, but some features (like drag-and-drop uploads or detailed campaign pages) are still on the drawing board. It’s a showcase of what’s possible, with more to come!
 
-## The Tech Behind It
+## The Tech Behind It ⚙️
 
 Here’s what powers CrowdFund:
 
 - **Frontend**: HTML5, Tailwind CSS for styling, and JavaScript (using ES6 modules).
 - **Backend**: Firebase handles authentication, Firestore stores data, and Storage keeps the images.
-- **Tools**: Firebase CLI for setup.
 
-## How to Set It Up
+## How to Set It Up👨‍🏫
 
 Want to try it out? Here’s how to get CrowdFund running on your machine:
 
@@ -77,8 +78,7 @@ It’s not perfect yet. Here’s what to watch out for:
 
 - The "Most Funded" and "Newest" filters need raised and createdAt data in Firestore, which might not be fully set up.
 - Image uploads are basic—just a simple <input> with no progress bar or drag-and-drop.
-- The campaign details page (campaign.html) isn’t built yet.
-- On slow connections, the loading spinner might overlap stuff—we’re working on it!
+- The campaign details page (campaignDetail.html) isn’t built yet.
 
 ## What’s Next
 
@@ -86,10 +86,10 @@ We’ve got big plans to make CrowdFund even better:
 
 - Drag-and-drop file uploads with progress bars and error messages.
 - A full campaign page where you can donate and see more details.
-- **Supporter Interaction Features : A** live comment section, real-time updates, and supporter recognition.
+- **Supporter Interaction Features :** A live comment section, real-time updates, and supporter recognition.
 - Implement push notifications for supporters to receive updates on the campaigns they've donated to, such as new milestones or reward tiers being unlocked.
 - An engaging stats overview showing the total amount raised, number of backers, average donation, and time left for the campaign.
 
-## Want to Help?
+## Want to Help?😇
 
 This is a learning project, so I’d love your thoughts! Feel free to fork the repo, tinker with it, and send pull requests or ideas my way.

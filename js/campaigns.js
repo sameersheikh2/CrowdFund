@@ -85,9 +85,9 @@ async function loadCampaigns(filter) {
     filteredCampaigns.forEach((campaign) => {
       const campaignElement = `
         <div class="bg-gray-800 p-4 shadow shadow-gray-700 rounded-lg hover:shadow-lg transition-shadow duration-300">
-          <img src="${
-            campaign.imageUrl || "https://via.placeholder.com/150"
-          }" alt="${campaign.title}" class="w-full h-48 object-cover rounded" />
+          <img src="${campaign.imageUrl || "image"}" alt="${
+        campaign.title
+      }" class="w-full h-48 object-cover rounded" />
           <h2 class="text-xl font-semibold mt-2">${campaign.title}</h2>
           <p class="text-gray-400 text-sm mt-1">${campaign.description.substring(
             0,

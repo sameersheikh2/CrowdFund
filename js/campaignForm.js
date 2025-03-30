@@ -84,14 +84,6 @@ function updatePreview() {
   document.getElementById(
     "preview-funding"
   ).textContent = `$0 of $${goal} raised`;
-
-  if (imageFile) {
-    document.getElementById("preview-image").src =
-      URL.createObjectURL(imageFile);
-  } else {
-    document.getElementById("preview-image").src =
-      "https://via.placeholder.com/150";
-  }
 }
 
 document
